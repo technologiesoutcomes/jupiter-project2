@@ -7,6 +7,7 @@
 * SQS
 * S3
 * Route53
+* AppSync
 
 
 You are required to create instances of these services using Terraform using the directory structure shown below. In the main.tf file add code logic that calls publicly available modules for the services API Gateway, EventBridge, CloudFront and Lambda. For the other services (SQS, S3, Route53), create your own local modules and call them from the main.tf root module.
